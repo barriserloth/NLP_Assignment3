@@ -43,23 +43,23 @@ ADVP -> RB RB
 ADVP -> RB
 PRT -> RP
 
-PRP -> I | me | it | You | you
-VBP -> hate | know | need | am
-DT -> this | the | a | Any
-JJ -> terrible
-VBZ -> is | Sometimes
-NNP -> running | everything
-NN -> leak | goodness | love | shower
-JJS -> worst
-VB -> feel | know | take | go | tell
-VBD -> was | started | spilled | did | fell | spent
-VBN -> born
-IN -> like | with | of | in | if
-RB -> just | slowly | now | all | n't | Then | Now | not
-RP -> out
-VBN -> gone
-TO -> to
-MD -> can
-VBG -> crying | playing
-NNS -> fonts | hours
-CD -> 7
+PRP -> 'i' | 'me' | 'it' | 'you'
+VBP -> 'hate' | 'know' | 'need' | 'am'
+DT -> 'this' | 'the' | 'a' | 'any'
+JJ -> 'terrible'
+VBZ -> 'is' | 'sometimes'
+NNP -> 'running' | 'everything'
+NN -> 'leak' | 'goodness' | 'love' | 'shower'
+JJS -> 'worst'
+VB -> 'feel' | 'know' | 'take' | 'go' | 'tell'
+VBD -> 'was' | 'started' | 'spilled' | 'didnt' | 'fell' | 'spent'
+VBN -> 'born'
+IN -> 'like' | 'with' | 'of' | 'in' | 'if'
+RB -> 'just' | 'slowly' | 'now' | 'nt' | 'all' | 'then' | 'now' | 'not'
+RP -> 'out'
+VBN -> 'gone'
+TO -> 'to'
+MD -> 'can'
+VBG -> 'crying' | 'playing'
+NNS -> 'fonts' | 'hours'
+CD -> '7'
