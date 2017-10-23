@@ -1,0 +1,65 @@
+S -> NP VP
+S -> VBZ NP VP
+S -> VP
+FRAG -> ADVP NP
+NP -> PRP
+NP -> NNP
+NP -> NN
+NP -> NNS
+NP -> DT
+NP -> DT JJS
+NP -> DT NN
+NP -> NP VP
+NP -> NP SBAR
+NP -> CD NNS
+VP -> ADVP VBD NP
+VP -> VBP NP
+VP -> VBP VP
+VP -> VBG
+VP -> VBZ NP
+VP -> VBD VP
+VP -> VBN PP
+VP -> VBD PP
+VP -> VBG PP
+VP -> VBD PP PP
+VP -> VBZ ADJP
+VP -> VBZ RB VP
+VP -> VBN
+VP -> VB SBAR
+VP -> VBD PRT PP	
+VP -> VBD RB VP
+VP -> VB NP
+VP -> VBP S
+VP -> TO VP
+VP -> VB VP
+VP -> MD RB VP
+SBAR -> IN S
+SBAR -> S
+SBAR -> RB S
+PP -> IN NP
+PP -> IN ADVP
+ADJP -> JJ
+ADVP -> RB RB
+ADVP -> RB
+PRT -> RP
+
+PRP -> I | me | it | You | you
+VBP -> hate | know | need | am
+DT -> this | the | a | Any
+JJ -> terrible
+VBZ -> is | Sometimes
+NNP -> running | everything
+NN -> leak | goodness | love | shower
+JJS -> worst
+VB -> feel | know | take | go | tell
+VBD -> was | started | spilled | did | fell | spent
+VBN -> born
+IN -> like | with | of | in | if
+RB -> just | slowly | now | all | n't | Then | Now | not
+RP -> out
+VBN -> gone
+TO -> to
+MD -> can
+VBG -> crying | playing
+NNS -> fonts | hours
+CD -> 7

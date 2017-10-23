@@ -99,15 +99,17 @@ def main():
   text = nltk.word_tokenize(sentences)
   tagged_text = nltk.pos_tag(text)
 
-  # english_parser = StanfordParser('stanford-parser.jar', 'stanford-parser-3.8.0-models.jar')
+  english_parser = StanfordParser('stanford-parser.jar', 'stanford-parser-3.8.0-models.jar')
 
-  # parsed = english_parser.raw_parse('This is a test')
-  # for line in parsed:
-    # print line
-
+    
   translation_dict = generate_english_to_spanish()
   translated_sentences = []
   for line in f:
+    l = line.replace('.', '')
+    parsed = english_parser.raw_parse(l.replace('\n', ''))
+    for sentence in parsed:
+      sentence.draw()
+
     translated_sentences.append(translate_sentence(line, translation_dict))
   print translated_sentences
 
