@@ -26,7 +26,7 @@ VP -> VBZ ADJP
 VP -> VBZ RB VP
 VP -> VBN
 VP -> VB SBAR
-VP -> VBD PRT PP	
+VP -> VBD PRT PP
 VP -> VBD RB VP
 VP -> VB NP
 VP -> VBP S
@@ -55,7 +55,7 @@ VB -> 'feel' | 'know' | 'take' | 'go' | 'tell'
 VBD -> 'was' | 'started' | 'spilled' | 'didnt' | 'fell' | 'spent'
 VBN -> 'born'
 IN -> 'like' | 'with' | 'of' | 'in' | 'if'
-RB -> 'just' | 'slowly' | 'now' | 'nt' | 'all' | 'then' | 'now' | 'not'
+RB -> 'just' | 'slowly' | 'now' | 'all' | 'then' | 'now' | 'not'
 RP -> 'out'
 VBN -> 'gone'
 TO -> 'to'
